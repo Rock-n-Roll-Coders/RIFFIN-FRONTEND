@@ -2,7 +2,7 @@ import { Typography } from "@mui/material";
 import { Box, Stack, Divider } from "@mui/material";
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import BuyMeACoffeeButton from "../HeaderLinks/BuyMeACofeeButton/BuyMeACoffeeButton";
-import ReachOut from "./ReachOut";
+import ContactButton from "../ContactForm/ContactButton";
 const Donate = () => {
   return (
     // TODO This can be maped.
@@ -34,7 +34,7 @@ const Donate = () => {
         </a>
       </Stack>
       <Divider />
-      <ReachOut />
+      <ContactButton />
     </Stack>
   );
 }

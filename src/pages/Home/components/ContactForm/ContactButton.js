@@ -1,5 +1,7 @@
 import { Button, Stack } from "@mui/material";
-const ReachOut = () => {
+
+// TODO: Plug in ContactForm component in place of Airtable link
+const ContactButton = () => {
   return (
     <Stack>
       <a href="https://airtable.com/shreuEqEiILbGu7NN" target="_blank" rel="noreferrer" style={{textDecoration: 'none', width: '100%', maxWidth: '250px',margin: '0px auto'}}>
@@ -11,4 +13,4 @@ const ReachOut = () => {
   );
 }
  
-export default ReachOut;
+export default ContactButton;

@@ -2,7 +2,7 @@ import {  Typography } from "@mui/material";
 import { Box, Stack, Divider, useTheme } from "@mui/material";
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import BuyMeACoffeeButton from "../HeaderLinks/BuyMeACofeeButton/BuyMeACoffeeButton";
-import ReachOut from "./ReachOut";
+import ContactButton from "../ContactForm/ContactButton";
 const DonateMobile = () => {
   const theme = useTheme();
 
@@ -45,7 +45,7 @@ const DonateMobile = () => {
         <BuyMeACoffeeButton />
       </Box>
       <Divider />
-      <ReachOut />
+      <ContactButton />
     </Stack>
   );
 }
