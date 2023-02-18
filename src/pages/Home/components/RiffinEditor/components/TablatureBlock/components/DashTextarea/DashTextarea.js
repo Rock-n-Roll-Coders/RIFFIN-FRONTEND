@@ -12,6 +12,7 @@ const DashTextarea = (props) => {
     margin: 0,
     position: "absolute",
     resize: "none",
+    top: "0",
     left: "0",
     translate: "0",
     zIndex: 1,
