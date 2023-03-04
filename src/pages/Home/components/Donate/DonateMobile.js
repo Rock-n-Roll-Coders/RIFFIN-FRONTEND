@@ -2,7 +2,7 @@ import {  Typography } from "@mui/material";
 import { Box, Stack, Divider, useTheme } from "@mui/material";
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import BuyMeACoffeeButton from "../HeaderLinks/BuyMeACofeeButton/BuyMeACoffeeButton";
-import ReachOut from "./ReachOut";
+import SupportButtons from "../Sidebar/components/SupportButtons/SupportButtons";
 const DonateMobile = () => {
   const theme = useTheme();
 
@@ -14,7 +14,6 @@ const DonateMobile = () => {
   };
 
   return (
-    // TODO This can be maped.
     <Stack spacing={3} sx={{textAlign: 'center', width: '100%', ...displayDonateStyle}}>
       <Divider >
         <Typography variant="p">Made by</Typography>
@@ -44,8 +43,7 @@ const DonateMobile = () => {
       <Box sx={{width: '45%', maxWidth: '200px', margin: '45px auto !important'}}>
         <BuyMeACoffeeButton />
       </Box>
-      <Divider />
-      <ReachOut />
+      <SupportButtons />
     </Stack>
   );
 }

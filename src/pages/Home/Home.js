@@ -22,6 +22,7 @@ import ChangePasswordForm from './components/LoginSignupForm/components/ChangePa
 import Donate from './components/Donate/Donate';
 import DonateMobile from './components/Donate/DonateMobile';
 import PageNotFound from 'pages/PageNotFound/PageNotFound';
+import SupportButtons from './components/Sidebar/components/SupportButtons/SupportButtons';
 
 const header = {
   width: "100%",
@@ -153,6 +154,9 @@ const Home = () => {
             <CreateBassTabButton />
           </Stack>
           <Donate />
+          <Stack direction="column" sx={{mb: 2}}>
+            <SupportButtons />
+          </Stack>
         </Box>
         <Routes>
           {/* // TODO Refactor this to /auth => /auth/login => /auth/signup */}
